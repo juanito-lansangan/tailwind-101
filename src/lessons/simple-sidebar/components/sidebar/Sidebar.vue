@@ -1,5 +1,5 @@
 <template>
-  <div class="m-0 flex flex-col bg-gray-900 px-2 py-2 text-white shadow-lg">
+  <div class="m-0 flex flex-col bg-gray-900 px-2 py-2 text-white">
     <SidebarIcon text="Trending">
       <Flame />
     </SidebarIcon>
@@ -12,10 +12,13 @@
     <SidebarIcon text="Packages">
       <Boxes />
     </SidebarIcon>
+    <SidebarIcon text="Settings">
+      <Cog />
+    </SidebarIcon>
   </div>
 </template>
 
 <script setup>
 import SidebarIcon from "./SidebarIcon.vue";
-import { Flame, Zap, Plus, Boxes } from "lucide-vue-next";
+import { Flame, Zap, Plus, Boxes, Cog } from "lucide-vue-next";
 </script>

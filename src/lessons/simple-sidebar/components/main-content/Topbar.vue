@@ -1,11 +1,11 @@
 <template>
-  <div class="flex items-center bg-gray-700 px-3 py-6 shadow-md">
+  <div class="flex items-center bg-gray-700 px-3 py-6 drop-shadow-md">
     <i class="text-gray-500"><Hash /></i>
     <span class="ml-2 grow text-lg text-blue-500">tailwind-css</span>
     <div class="flex items-center gap-6">
       <i class="text-white"><Sun /></i>
 
-      <div class="relative">
+      <div class="relative drop-shadow-md">
         <input
           type="text"
           name="search"
