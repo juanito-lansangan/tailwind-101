@@ -9,6 +9,13 @@
           >Simple Layout</RouterLink
         >
       </li>
+      <li>
+        <RouterLink
+          class="p-2 text-blue-500 hover:underline"
+          to="/responsive-layout"
+          >Responsive Layout</RouterLink
+        >
+      </li>
     </ul>
   </div>
 </template>
